@@ -5,6 +5,7 @@ ALX SE Foundation Group Project
 C - Simple Shell project is given by Alx to students to equip them with the skills and mastery of C programming language. The projects require students to code a custom bash shell. 
 A shell is an interface between the user and the operating system through the prompt.
 
+
 Allowed Functions
 
 The following are lists of allowed functions.
@@ -41,9 +42,11 @@ wait3 (man 2 wait3)
 wait4 (man 2 wait4)
 write (man 2 write)
 
+
 For Compilation we use
 
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+
 
 For Testing (in interractive mode) we use:
 
@@ -67,6 +70,7 @@ $ cat test_ls_2 | ./hsh
 hsh main.c shell.c test_ls_2
 hsh main.c shell.c test_ls_2
 $
+
 
 Tasks.
 
