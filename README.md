@@ -51,21 +51,29 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 For Testing (in interractive mode) we use:
 
 $ ./hsh
-($) /bin/ls
+
+($) /bin/
+
 hsh main.c shell.c
 ($)
+
 ($) exit
+
 $
 
 For Testing (in non -interractive mode) we use:
 
 $ echo "/bin/ls" | ./hsh
 hsh main.c shell.c test_ls_2
+
 $
+
 $ cat test_ls_2
 /bin/ls
-/bin/ls
+/bin/
+
 $
+
 $ cat test_ls_2 | ./hsh
 hsh main.c shell.c test_ls_2
 hsh main.c shell.c test_ls_2
